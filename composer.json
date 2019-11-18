@@ -1,5 +1,5 @@
 {
-    "name": "botman/botman",
+    "name": "krbotman/botman",
     "license": "MIT",
     "description": "Create messaging bots in PHP with ease.",
     "keywords": [
@@ -15,24 +15,25 @@
         }
     ],
     "require": {
-        "php": ">=7.0",
-        "symfony/http-foundation": "^2.8 || ^3.0 || ^4.0",
-        "tightenco/collect": "~5.0",
+        "php": "^7.2",
+        "symfony/http-foundation": "5.0.*",
+        "tightenco/collect": "~5.0|~6.0",
         "opis/closure": "^2.3 || ^3.0",
         "mpociot/pipeline": "^1.0",
         "react/socket": "~1.0",
         "spatie/macroable": "^1.0",
-        "psr/container": "^1.0"
+        "psr/container": "^1.0",
+        "google/cloud-dialogflow": "~0.10"
     },
     "require-dev": {
         "codeigniter/framework": "~3.0",
-        "illuminate/support": "^5.4",
-        "orchestra/testbench": "~3.0",
-        "phpunit/phpunit": "~6.4",
-        "mockery/mockery": "^1.1",
+        "illuminate/support":  "~5.5.0 || ~5.6.0 || ~5.7.0 || ~5.8.0 || ^6.0",
+        "orchestra/testbench": "^3.5 || ^3.6 || ^3.7 || ^3.8 || ^4.0",
+        "phpunit/phpunit": "^7.0|^8.0",
+        "mockery/mockery": "dev-master",
         "sllh/php-cs-fixer-styleci-bridge": "^2.1",
         "doctrine/cache": "^1.6",
-        "symfony/cache": "^3.1",
+        "symfony/cache": "dev-master",
         "ext-curl": "*"
     },
     "suggest": {
